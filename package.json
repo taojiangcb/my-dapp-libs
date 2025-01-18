@@ -4,9 +4,8 @@
   "private": true,
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "publish":"npx lerna publish",
-    "clear":"lerna clean && pnpm store prune"
+    "publish": "npx lerna publish --no-verify-access --registry http://localhost:4873",
+    "clear": "lerna clean && pnpm store prune"
   },
   "keywords": [],
   "author": "",

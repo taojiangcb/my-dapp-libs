@@ -13,7 +13,10 @@
   "command": {
     "publish": {
       "conventionalCommits": true,
-      "message": "[skin ci] chore:release"
+      "message": "[skin ci] chore:release",
+      "registry": "http://localhost:4873",
+      "allowBranch": ["main", "master"],
+      "verifyAccess": false
     }
   }
 }

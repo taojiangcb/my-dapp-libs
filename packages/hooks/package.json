@@ -1,6 +1,6 @@
 {
   "name": "@mydapp/hooks",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -10,7 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@mydapp/ui": "^1.0.3"
+    "@mydapp/ui": "^1.0.4"
   },
   "gitHead": "864443efb3b8ed8fc351cbc5c54a88282130a137"
 }
