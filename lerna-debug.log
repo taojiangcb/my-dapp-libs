@@ -1,16 +1,16 @@
-81 error Error: Command failed with exit code 1: pnpm install --lockfile-only --ignore-scripts
-81 error Scope: all 5 workspace projects
-81 error  WARN  `node_modules` is present. Lockfile only installation will make it out-of-date
-81 error /Users/taojiang/Documents/study/my-dapp-libs/packages/hooks:
-81 error  ERR_PNPM_FETCH_404  GET http://localhost:4873/@mydapp%2Fui: Not Found - 404
-81 error
-81 error This error happened while installing a direct dependency of /Users/taojiang/Documents/study/my-dapp-libs/packages/hooks
-81 error
-81 error @mydapp/ui is not in the npm registry, or you have no permission to fetch it.
-81 error
-81 error An authorization header was used: Bearer ODk3[hidden]
-81 error     at makeError (/Users/taojiang/Documents/study/my-dapp-libs/node_modules/.pnpm/execa@5.0.0/node_modules/execa/lib/error.js:59:11)
-81 error     at handlePromise (/Users/taojiang/Documents/study/my-dapp-libs/node_modules/.pnpm/execa@5.0.0/node_modules/execa/index.js:114:26)
-81 error     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-81 error     at async VersionCommand.updatePackageVersions (/Users/taojiang/Documents/study/my-dapp-libs/node_modules/.pnpm/lerna@8.1.9_encoding@0.1.13/node_modules/lerna/dist/index.js:9866:11)
-81 error     at async Promise.all (index 0)
+82 error Error: Command failed with exit code 1: pnpm install --lockfile-only --ignore-scripts
+82 error Scope: all 5 workspace projects
+82 error  WARN  `node_modules` is present. Lockfile only installation will make it out-of-date
+82 error /Users/taojiang/Documents/study/my-dapp-libs/packages/hooks:
+82 error  ERR_PNPM_FETCH_404  GET http://localhost:4873/@mydapp%2Fui: Not Found - 404
+82 error
+82 error This error happened while installing a direct dependency of /Users/taojiang/Documents/study/my-dapp-libs/packages/hooks
+82 error
+82 error @mydapp/ui is not in the npm registry, or you have no permission to fetch it.
+82 error
+82 error An authorization header was used: Bearer ODk3[hidden]
+82 error     at makeError (/Users/taojiang/Documents/study/my-dapp-libs/node_modules/.pnpm/execa@5.0.0/node_modules/execa/lib/error.js:59:11)
+82 error     at handlePromise (/Users/taojiang/Documents/study/my-dapp-libs/node_modules/.pnpm/execa@5.0.0/node_modules/execa/index.js:114:26)
+82 error     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+82 error     at async VersionCommand.updatePackageVersions (/Users/taojiang/Documents/study/my-dapp-libs/node_modules/.pnpm/lerna@8.1.9_encoding@0.1.13/node_modules/lerna/dist/index.js:9866:11)
+82 error     at async Promise.all (index 0)
