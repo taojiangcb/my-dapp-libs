@@ -1,8 +1,8 @@
 {
   "name": "@mydapp/cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "bin/index.js",
-  "bin":"",
+  "bin": "",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
