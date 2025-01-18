@@ -1,0 +1,19 @@
+{
+  "$schema": "node_modules/lerna/schemas/lerna-schema.json",
+  "version": "independent",
+  "npmClient": "pnpm",
+  "ignoreChanges": [
+    "**/node_modules/**",
+    "**/_shapshots_/**"
+  ],
+  "packages": [
+    "packages/*",
+    "apps/*"
+  ],
+  "command": {
+    "publish": {
+      "conventionalCommits": true,
+      "message": "[skin ci] chore:release"
+    }
+  }
+}
