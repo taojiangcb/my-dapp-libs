@@ -1,16 +1,116 @@
-82 error Error: Command failed with exit code 1: pnpm install --lockfile-only --ignore-scripts
-82 error Scope: all 5 workspace projects
-82 error  WARN  `node_modules` is present. Lockfile only installation will make it out-of-date
-82 error /Users/taojiang/Documents/study/my-dapp-libs/packages/hooks:
-82 error  ERR_PNPM_FETCH_404  GET http://localhost:4873/@mydapp%2Fui: Not Found - 404
-82 error
-82 error This error happened while installing a direct dependency of /Users/taojiang/Documents/study/my-dapp-libs/packages/hooks
-82 error
-82 error @mydapp/ui is not in the npm registry, or you have no permission to fetch it.
-82 error
-82 error An authorization header was used: Bearer ODk3[hidden]
-82 error     at makeError (/Users/taojiang/Documents/study/my-dapp-libs/node_modules/.pnpm/execa@5.0.0/node_modules/execa/lib/error.js:59:11)
-82 error     at handlePromise (/Users/taojiang/Documents/study/my-dapp-libs/node_modules/.pnpm/execa@5.0.0/node_modules/execa/index.js:114:26)
-82 error     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-82 error     at async VersionCommand.updatePackageVersions (/Users/taojiang/Documents/study/my-dapp-libs/node_modules/.pnpm/lerna@8.1.9_encoding@0.1.13/node_modules/lerna/dist/index.js:9866:11)
-82 error     at async Promise.all (index 0)
+0 silly argv {
+0 silly argv   _: [ 'version' ],
+0 silly argv   push: false,
+0 silly argv   'git-tag-version': false,
+0 silly argv   gitTagVersion: false,
+0 silly argv   lernaVersion: '8.1.9',
+0 silly argv   '$0': 'node_modules/lerna/dist/cli.js'
+0 silly argv }
+1 notice cli v8.1.9
+2 verbose packageConfigs Explicit "packages" configuration found in lerna.json. Resolving packages using the configured glob(s): ["packages/*","apps/*"]
+3 verbose rootPath /Users/taojiang/Documents/study/my-dapp-libs
+4 info versioning independent
+5 silly isAnythingCommitted
+6 verbose isAnythingCommitted 1
+7 silly getCurrentBranch
+8 verbose currentBranch main
+9 silly hasTags
+10 verbose hasTags true
+11 silly git-describe.sync "@mydapp/cli@1.0.1-5-gb85015b-dirty" => {"lastTagName":"@mydapp/cli@1.0.1","lastVersion":"1.0.1","refCount":"5","sha":"b85015b","isDirty":true}
+12 info Looking for changed packages since @mydapp/cli@1.0.1
+13 info ignoring diff in paths matching [ '**/node_modules/**', '**/_shapshots_/**' ]
+14 silly checking diff packages/cli
+15 silly found diff in packages/cli/CHANGELOG.md
+15 silly found diff in packages/cli/package.json
+16 verbose filtered diff [ 'packages/cli/CHANGELOG.md', 'packages/cli/package.json' ]
+17 silly checking diff packages/components
+18 silly found diff in packages/components/CHANGELOG.md
+18 silly found diff in packages/components/package.json
+19 verbose filtered diff [
+19 verbose filtered diff   'packages/components/CHANGELOG.md',
+19 verbose filtered diff   'packages/components/package.json'
+19 verbose filtered diff ]
+20 silly checking diff packages/hooks
+21 silly found diff in packages/hooks/CHANGELOG.md
+21 silly found diff in packages/hooks/package.json
+22 verbose filtered diff [ 'packages/hooks/CHANGELOG.md', 'packages/hooks/package.json' ]
+23 silly checking diff packages/ui
+24 silly found diff in packages/ui/CHANGELOG.md
+24 silly found diff in packages/ui/package.json
+25 verbose filtered diff [ 'packages/ui/CHANGELOG.md', 'packages/ui/package.json' ]
+26 verbose updated @mydapp/cli
+27 verbose updated @mydapp/components
+28 verbose updated @mydapp/hooks
+29 verbose updated @mydapp/ui
+30 warn version Skipping working tree validation, proceed at your own risk
+31 silly independent for @mydapp/cli at /Users/taojiang/Documents/study/my-dapp-libs/packages/cli
+32 verbose getChangelogConfig using preset "conventional-changelog-angular"
+33 silly npa Result {
+33 silly npa   type: 'range',
+33 silly npa   registry: true,
+33 silly npa   where: undefined,
+33 silly npa   raw: 'conventional-changelog-angular',
+33 silly npa   name: 'conventional-changelog-angular',
+33 silly npa   escapedName: 'conventional-changelog-angular',
+33 silly npa   scope: undefined,
+33 silly npa   rawSpec: '*',
+33 silly npa   saveSpec: null,
+33 silly npa   fetchSpec: '*',
+33 silly npa   gitRange: undefined,
+33 silly npa   gitCommittish: undefined,
+33 silly npa   gitSubdir: undefined,
+33 silly npa   hosted: undefined
+33 silly npa }
+34 verbose getChangelogConfig Attempting to resolve preset "conventional-changelog-angular"
+35 info getChangelogConfig Successfully resolved preset "conventional-changelog-angular"
+36 verbose independent increment 1.0.6 by patch
+37 silly independent for @mydapp/components at /Users/taojiang/Documents/study/my-dapp-libs/packages/components
+38 verbose independent increment 1.0.6 by patch
+39 silly independent for @mydapp/hooks at /Users/taojiang/Documents/study/my-dapp-libs/packages/hooks
+40 verbose independent increment 1.0.6 by patch
+41 silly independent for @mydapp/ui at /Users/taojiang/Documents/study/my-dapp-libs/packages/ui
+42 verbose independent increment 1.0.6 by patch
+43 info execute Skipping git tag/commit
+44 info execute Skipping git push
+45 info execute Skipping releases
+46 verbose lifecycle "preversion" ignored in "my-dapp-libs"
+47 verbose lifecycle "preversion" ignored in "@mydapp/cli"
+48 verbose lifecycle "preversion" ignored in "@mydapp/components"
+49 verbose lifecycle "preversion" ignored in "@mydapp/ui"
+50 verbose version @mydapp/components has no lockfile. Skipping lockfile update.
+51 verbose version @mydapp/cli has no lockfile. Skipping lockfile update.
+52 verbose version @mydapp/ui has no lockfile. Skipping lockfile update.
+53 verbose lifecycle "version" ignored in "@mydapp/ui"
+54 silly independent for @mydapp/ui at /Users/taojiang/Documents/study/my-dapp-libs/packages/ui
+55 verbose lifecycle "version" ignored in "@mydapp/components"
+56 silly independent for @mydapp/components at /Users/taojiang/Documents/study/my-dapp-libs/packages/components
+57 verbose lifecycle "version" ignored in "@mydapp/cli"
+58 silly independent for @mydapp/cli at /Users/taojiang/Documents/study/my-dapp-libs/packages/cli
+59 silly independent writing new entry: "## [1.0.7](https://github.com/taojiangcb/my-dapp-libs/compare/@mydapp/ui@1.0.1...@mydapp/ui@1.0.7) (2025-01-18)\n\n**Note:** Version bump only for package @mydapp/ui\n\n\n\n"
+60 silly independent writing new entry: "## [1.0.7](https://github.com/taojiangcb/my-dapp-libs/compare/@mydapp/cli@1.0.1...@mydapp/cli@1.0.7) (2025-01-18)\n\n**Note:** Version bump only for package @mydapp/cli\n\n\n\n"
+61 verbose independent wrote /Users/taojiang/Documents/study/my-dapp-libs/packages/ui/CHANGELOG.md
+62 verbose lifecycle "preversion" ignored in "@mydapp/hooks"
+63 verbose independent wrote /Users/taojiang/Documents/study/my-dapp-libs/packages/cli/CHANGELOG.md
+64 silly independent writing new entry: "## [1.0.7](https://github.com/taojiangcb/my-dapp-libs/compare/@mydapp/components@1.0.1...@mydapp/components@1.0.7) (2025-01-18)\n\n**Note:** Version bump only for package @mydapp/components\n\n\n\n"
+65 verbose version @mydapp/hooks has no lockfile. Skipping lockfile update.
+66 verbose independent wrote /Users/taojiang/Documents/study/my-dapp-libs/packages/components/CHANGELOG.md
+67 verbose lifecycle "version" ignored in "@mydapp/hooks"
+68 silly independent for @mydapp/hooks at /Users/taojiang/Documents/study/my-dapp-libs/packages/hooks
+69 silly independent writing new entry: "## [1.0.7](https://github.com/taojiangcb/my-dapp-libs/compare/@mydapp/hooks@1.0.1...@mydapp/hooks@1.0.7) (2025-01-18)\n\n**Note:** Version bump only for package @mydapp/hooks\n\n\n\n"
+70 verbose independent wrote /Users/taojiang/Documents/study/my-dapp-libs/packages/hooks/CHANGELOG.md
+71 verbose lifecycle "version" ignored in "my-dapp-libs"
+72 verbose version Updating root pnpm-lock.yaml
+73 error Error: Command failed with exit code 1: pnpm install --lockfile-only --ignore-scripts
+73 error Scope: all 5 workspace projects
+73 error  WARN  `node_modules` is present. Lockfile only installation will make it out-of-date
+73 error /Users/taojiang/Documents/study/my-dapp-libs/packages/hooks:
+73 error  ERR_PNPM_FETCH_404  GET http://localhost:4873/@mydapp%2Fui: Not Found - 404
+73 error
+73 error This error happened while installing a direct dependency of /Users/taojiang/Documents/study/my-dapp-libs/packages/hooks
+73 error
+73 error @mydapp/ui is not in the npm registry, or you have no permission to fetch it.
+73 error
+73 error An authorization header was used: Bearer ODk3[hidden]
+73 error     at makeError (/Users/taojiang/Documents/study/my-dapp-libs/node_modules/.pnpm/execa@5.0.0/node_modules/execa/lib/error.js:59:11)
+73 error     at handlePromise (/Users/taojiang/Documents/study/my-dapp-libs/node_modules/.pnpm/execa@5.0.0/node_modules/execa/index.js:114:26)
+73 error     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)

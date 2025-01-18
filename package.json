@@ -4,7 +4,7 @@
   "private": true,
   "main": "index.js",
   "scripts": {
-    "publish": "npx lerna publish --no-verify-access --registry http://localhost:4873",
+    "publish": "npx lerna publish",
     "clear": "lerna clean && pnpm store prune"
   },
   "keywords": [],

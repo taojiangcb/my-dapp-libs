@@ -19,7 +19,7 @@ importers:
   packages/hooks:
     dependencies:
       '@mydapp/ui':
-        specifier: workspace:^
+        specifier: workspace:*
         version: link:../ui
 
   packages/ui: {}
@@ -169,28 +169,24 @@ packages:
     engines: {node: '>= 10'}
     cpu: [arm64]
     os: [linux]
-    libc: [glibc]
 
   '@nx/nx-linux-arm64-musl@20.3.2':
     resolution: {integrity: sha512-HXthtN7adXCNVWs2F4wIqq2f7BcKTjsEnqg2LWV5lm4hRYvMfEvPftb0tECsEhcSQQYcvIJnLfv3vtu9HZSfVA==}
     engines: {node: '>= 10'}
     cpu: [arm64]
     os: [linux]
-    libc: [musl]
 
   '@nx/nx-linux-x64-gnu@20.3.2':
     resolution: {integrity: sha512-HhgHqOUT05H45zuQL+XPywQbRNFttd7Rkkr7dZnpCRdp4W8GDjfyKCoCS5qVyowAyNh9Vc7VEq9qmiLMlvf6Zg==}
     engines: {node: '>= 10'}
     cpu: [x64]
     os: [linux]
-    libc: [glibc]
 
   '@nx/nx-linux-x64-musl@20.3.2':
     resolution: {integrity: sha512-NrZ8L9of2GmYEM8GMJX6QRrLJlAwM+ds2rhdY1bxwpiyCNcD3IO/gzJlBs+kG4ly05F1u/X4k/FI5dXPpjUSgw==}
     engines: {node: '>= 10'}
     cpu: [x64]
     os: [linux]
-    libc: [musl]
 
   '@nx/nx-win32-arm64-msvc@20.3.2':
     resolution: {integrity: sha512-yLjacZND7C1XmsC0jfRLSgeLWZUw2Oz+u3nXNvj5JX6YHtYTVLFnRbTAcI+pG2Y6v0Otf2GKb3VT5d1mQb8JvA==}
