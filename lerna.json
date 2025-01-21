@@ -11,12 +11,12 @@
     "packages/*",
     "apps/*"
   ],
-  "version": {
-    "ignoreChanges": [
-      "apps/**"
-    ]
-  },
   "command": {
+    "version": {
+      "ignoreChanges": [
+        "apps/**"
+      ]
+    },
     "publish": {
       "conventionalCommits": true,
       "message": "[skin ci] chore:release",
