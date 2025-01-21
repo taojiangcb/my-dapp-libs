@@ -1,6 +1,6 @@
 {
   "name": "@mydapp/ui",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "this is a ui libary",
   "main": "dist/cjs/index.js",
   "scripts": {
@@ -9,7 +9,6 @@
     "build:deps": "father prebundle",
     "prepublishOnly": "father doctor && npm run build"
   },
-
   "keywords": [],
   "authors": [
     "jiangtao_qepyou@163.com"
