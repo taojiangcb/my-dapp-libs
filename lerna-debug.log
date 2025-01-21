@@ -1,9 +1,10 @@
-45 error TypeError: Invalid version. Must be a string. Got type "object".
-45 error     at new SemVer (/Users/taojiang/Documents/study/my-dapp-libs/node_modules/.pnpm/semver@7.6.3/node_modules/semver/classes/semver.js:19:13)
-45 error     at compare (/Users/taojiang/Documents/study/my-dapp-libs/node_modules/.pnpm/semver@7.6.3/node_modules/semver/functions/compare.js:3:32)
-45 error     at Object.lt (/Users/taojiang/Documents/study/my-dapp-libs/node_modules/.pnpm/semver@7.6.3/node_modules/semver/functions/lt.js:2:29)
-45 error     at VersionCommand.setGlobalVersionFloor (/Users/taojiang/Documents/study/my-dapp-libs/node_modules/.pnpm/lerna@8.1.9_@swc+core@1.10.8_encoding@0.1.13/node_modules/lerna/dist/index.js:9711:38)
-45 error     at VersionCommand.recommendVersions (/Users/taojiang/Documents/study/my-dapp-libs/node_modules/.pnpm/lerna@8.1.9_@swc+core@1.10.8_encoding@0.1.13/node_modules/lerna/dist/index.js:9681:16)
-45 error     at VersionCommand.getVersionsForUpdates (/Users/taojiang/Documents/study/my-dapp-libs/node_modules/.pnpm/lerna@8.1.9_@swc+core@1.10.8_encoding@0.1.13/node_modules/lerna/dist/index.js:9634:23)
-45 error     at VersionCommand.initialize (/Users/taojiang/Documents/study/my-dapp-libs/node_modules/.pnpm/lerna@8.1.9_@swc+core@1.10.8_encoding@0.1.13/node_modules/lerna/dist/index.js:9560:37)
-45 error     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+106 warn complete Waiting for 4 child processes to exit. CTRL-C to exit immediately.
+107 error Error: Command failed with exit code 128: git tag @mydapp/cli@1.0.1 -m @mydapp/cli@1.0.1
+107 error fatal: tag '@mydapp/cli@1.0.1' already exists
+107 error     at makeError (/Users/taojiang/Documents/study/my-dapp-libs/node_modules/.pnpm/execa@5.0.0/node_modules/execa/lib/error.js:59:11)
+107 error     at handlePromise (/Users/taojiang/Documents/study/my-dapp-libs/node_modules/.pnpm/execa@5.0.0/node_modules/execa/index.js:114:26)
+107 error     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+107 error     at async Promise.all (index 1)
+107 error     at async VersionCommand.gitCommitAndTagVersionForUpdates (/Users/taojiang/Documents/study/my-dapp-libs/node_modules/.pnpm/lerna@8.1.9_@swc+core@1.10.8_encoding@0.1.13/node_modules/lerna/dist/index.js:9957:11)
+107 error     at async VersionCommand.commitAndTagUpdates (/Users/taojiang/Documents/study/my-dapp-libs/node_modules/.pnpm/lerna@8.1.9_@swc+core@1.10.8_encoding@0.1.13/node_modules/lerna/dist/index.js:9933:18)
+107 error     at async Promise.all (index 0)
