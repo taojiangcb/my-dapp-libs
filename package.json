@@ -5,7 +5,8 @@
   "scripts": {
     "publish": "lerna publish",
     "build": "lerna run build --stream",
-    "clear": "lerna clean && pnpm store prune"
+    "clear": "lerna clean && pnpm store prune",
+    "changed": "lerna changed"
   },
   "keywords": [],
   "author": "",

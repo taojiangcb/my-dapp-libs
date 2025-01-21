@@ -10,9 +10,7 @@
     "prepublishOnly": "father doctor && npm run build"
   },
   "keywords": [],
-  "authors": [
-    "jiangtao_qepyou@163.com"
-  ],
+  "author": "45052736@qq.com",
   "license": "MIT",
   "devDependencies": {
     "@types/react": "^19.0.7",

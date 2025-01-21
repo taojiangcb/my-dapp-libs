@@ -14,7 +14,7 @@
   "keywords": [
     "cli"
   ],
-  "author": "",
+  "author": "45052736@qq.com",
   "license": "MIT",
   "devDependencies": {
     "@rollup/plugin-commonjs": "^24.0.0",

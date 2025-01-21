@@ -8,7 +8,7 @@
     "build": "echo hooks build"
   },
   "keywords": [],
-  "author": "",
+  "author": "45052736@qq.com",
   "license": "ISC",
   "dependencies": {
     "@mydapp/ui": "workspace:*"
