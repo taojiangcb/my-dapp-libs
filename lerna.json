@@ -3,6 +3,7 @@
   "version": "independent",
   "npmClient": "pnpm",
   "ignoreChanges": [
+    "apps/**",
     "**/node_modules/**",
     "**/_shapshots_/**"
   ],
@@ -10,12 +11,17 @@
     "packages/*",
     "apps/*"
   ],
+  "version": {
+    "ignoreChanges": [
+      "apps/**"
+    ]
+  },
   "command": {
     "publish": {
       "conventionalCommits": true,
       "message": "[skin ci] chore:release",
-      "skipInstall": true,          
-      "ignoreScripts": true        
+      "skipInstall": true,
+      "ignoreScripts": true
     }
   }
 }

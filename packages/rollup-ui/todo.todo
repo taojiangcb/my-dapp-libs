@@ -1,0 +1,4 @@
+# 需要加入 storybook 和 radix 组件库
+# 将 组件库和 storybook 进行分开编译。
+  1. 组件用 rollup 进行编译
+  2. doc 用 storybook 进行编译发布 

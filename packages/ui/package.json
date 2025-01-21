@@ -1,13 +1,31 @@
 {
   "name": "@mydapp/ui",
-  "version": "1.0.10",
-  "description": "",
-  "main": "index.js",
+  "version": "0.0.1",
+  "description": "this is a ui libary",
+  "main": "dist/cjs/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "father dev",
+    "build": "father build",
+    "build:deps": "father prebundle",
+    "prepublishOnly": "father doctor && npm run build"
   },
+
   "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "gitHead": "864443efb3b8ed8fc351cbc5c54a88282130a137"
+  "authors": [
+    "jiangtao_qepyou@163.com"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "@types/react": "^19.0.7",
+    "@types/react-dom": "^19.0.3",
+    "autoprefixer": "^10.4.20",
+    "babel-plugin-typescript-to-proptypes": "^2.1.0",
+    "father": "^4.5.1",
+    "postcss": "^8.5.1",
+    "tailwindcss": "^3.4.17"
+  },
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  }
 }
